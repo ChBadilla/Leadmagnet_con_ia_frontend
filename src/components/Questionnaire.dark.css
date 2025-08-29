@@ -1,0 +1,41 @@
+.questionnaire-container.dark-mode {
+  background-color: #1A202C;
+  color: var(--neutral-light);
+}
+
+.dark-mode .question-card {
+  background-color: #2D3748;
+  border: 1px solid #4A5568;
+}
+
+.dark-mode .progress-header {
+  color: #A0AEC0;
+}
+
+.dark-mode .progress-bar {
+  background-color: #4A5568;
+}
+
+.dark-mode .progress-bar .progress-bar-inner {
+  background-color: var(--secondary-purple);
+}
+
+.dark-mode .question-title {
+  color: var(--neutral-light);
+}
+
+.dark-mode .btn-outline-primary {
+  color: #A0AEC0;
+  border-color: #4A5568;
+}
+
+.dark-mode .btn-check:checked + .btn-outline-primary {
+  background-color: var(--secondary-purple);
+  border-color: var(--secondary-purple);
+  color: var(--neutral-light);
+  box-shadow: 0 0 0 0.25rem rgba(107, 70, 193, 0.5);
+}
+
+.dark-mode .navigation-buttons {
+  display: none; /* Hide navigation buttons in dark mode as per new requirement */
+}

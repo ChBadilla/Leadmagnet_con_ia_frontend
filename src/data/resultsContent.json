@@ -1,0 +1,57 @@
+{
+  "1": {
+    "label": "Inicial",
+    "diagnosis": "Estás en las primeras etapas de exploración de la IA y la automatización.",
+    "wins": [
+      "Crea una cuenta en una herramienta de IA generativa (ChatGPT, Gemini) y úsala para tareas simples.",
+      "Identifica un proceso repetitivo en tu día a día que podrías automatizar.",
+      "Lee un artículo introductorio sobre los beneficios de la IA en los negocios."
+    ],
+    "risk": "Riesgo de obsolescencia y pérdida de competitividad a mediano plazo.",
+    "opportunity": "Enorme potencial de crecimiento y eficiencia al adoptar nuevas tecnologías."
+  },
+  "2": {
+    "label": "Explorador",
+    "diagnosis": "Has comenzado a experimentar con la IA, pero su uso aún no es sistemático.",
+    "wins": [
+      "Define un proceso interno simple (ej. reporte semanal) para un piloto de automatización.",
+      "Centraliza datos clave de un área en una única hoja de cálculo o documento.",
+      "Prueba un chatbot básico para responder las preguntas más frecuentes de tu web."
+    ],
+    "risk": "Los esfuerzos aislados pueden no generar un impacto significativo o sostenible.",
+    "opportunity": "Capitalizar los primeros éxitos para justificar una inversión más estructurada."
+  },
+  "3": {
+    "label": "Implementador",
+    "diagnosis": "Ya estás viendo los beneficios de la IA en áreas clave de tu negocio.",
+    "wins": [
+      "Documenta los procesos ya automatizados para estandarizarlos y escalarlos.",
+      "Define un plan de gobernanza de datos para asegurar calidad y consistencia.",
+      "Capacita a tu equipo en el uso de las herramientas de IA implementadas."
+    ],
+    "risk": "Estancamiento si no se expande la adopción a otras áreas del negocio.",
+    "opportunity": "Optimizar y escalar las soluciones actuales para un ROI medible."
+  },
+  "4": {
+    "label": "Avanzado",
+    "diagnosis": "La IA y la automatización son una parte integral de tu estrategia operativa.",
+    "wins": [
+      "Implementa un sistema de monitoreo de KPIs para medir el impacto directo de la IA.",
+      "Explora integraciones más complejas entre diferentes fuentes de datos y sistemas.",
+      "Desarrolla políticas de cumplimiento y riesgo para el uso de IA en la empresa."
+    ],
+    "risk": "La complejidad tecnológica requiere mayor especialización y gobernanza.",
+    "opportunity": "Desarrollar ventajas competitivas únicas basadas en datos y IA propia."
+  },
+  "5": {
+    "label": "Líder",
+    "diagnosis": "Lideras con una estrategia de IA proactiva, documentada y optimizada.",
+    "wins": [
+      "Realiza auditorías continuas de los modelos y sistemas de IA para evitar sesgos.",
+      "Crea un ciclo de feedback para re-entrenar modelos de IA con nuevos datos.",
+      "Comparte tus casos de éxito para posicionarte como un líder en la industria."
+    ],
+    "risk": "Mantenerse a la vanguardia requiere una inversión y adaptación constantes.",
+    "opportunity": "Monetizar tus soluciones de IA o crear nuevos modelos de negocio."
+  }
+}

@@ -1,0 +1,27 @@
+:root {
+  --primary-blue: #0066CC;
+  --secondary-purple: #6B46C1;
+  --accent-green: #10B981;
+  --neutral-light: #F8FAFC;
+  --neutral-dark: #64748B;
+  --font-header: 'Montserrat', sans-serif;
+  --font-body: 'Open Sans', sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--neutral-light);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-header);
+  font-weight: 700;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

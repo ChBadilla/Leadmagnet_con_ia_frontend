@@ -1,0 +1,63 @@
+
+.landing-container {
+  background-color: var(--neutral-light);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.hero-card {
+  max-width: 550px;
+  width: 100%;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  background-color: white;
+}
+
+.hero-card .card-title {
+  font-family: var(--font-header);
+  font-weight: 700;
+  color: #212529;
+  font-size: 2.25rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.hero-card .card-subtitle {
+  font-family: var(--font-body);
+  text-align: center;
+  color: var(--neutral-dark);
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.cta-button {
+  background-color: var(--primary-blue);
+  border-color: var(--primary-blue);
+  font-family: var(--font-header);
+  font-weight: 700;
+  padding: 0.75rem 1.5rem;
+  width: 100%;
+  font-size: 1.1rem;
+  border-radius: 8px;
+}
+
+.cta-button:hover {
+  filter: brightness(90%);
+}
+
+.footer-text {
+  text-align: center;
+  margin-top: 1.5rem;
+  color: var(--neutral-dark);
+  font-weight: 500;
+}
+
+.form-check-label {
+  font-size: 0.9rem;
+  color: var(--neutral-dark);
+}

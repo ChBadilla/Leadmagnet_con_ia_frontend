@@ -1,0 +1,161 @@
+
+.results-container {
+  background-color: var(--neutral-light);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.results-card {
+  max-width: 800px;
+  width: 100%;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  padding: 2.5rem;
+  background-color: white;
+  position: relative; /* Needed for absolute positioning of the seal */
+}
+
+.results-title {
+  font-family: var(--font-header);
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  color: #212529;
+}
+
+.results-subtitle {
+  font-family: var(--font-body);
+  text-align: center;
+  color: var(--neutral-dark);
+  font-size: 1.1rem;
+  margin-bottom: 3rem;
+}
+
+.score-display-wrapper {
+  display: flex;
+  gap: 2rem;
+  align-items: stretch;
+}
+
+.score-bar-vertical {
+  width: 90px;
+  height: 250px;
+  background-image: linear-gradient(to top, #dc3545, #fd7e14, #ffc107, #0d6efd, #198754);
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.user-score-marker {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.8);
+  border-top: 3px dashed var(--primary-blue);
+  height: 0;
+  transition: height 0.5s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-score-label {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--primary-blue);
+    color: white;
+    padding: 3px 10px;
+    border-radius: 5px;
+    font-family: var(--font-header);
+    font-weight: 700;
+    font-size: 0.85rem; /* Reduced font size */
+    white-space: nowrap; /* Prevent text wrapping */
+}
+
+.results-content {
+  flex: 1;
+}
+
+.diagnosis-phrase {
+  font-size: 1.25rem;
+  font-family: var(--font-body);
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background-color: #eef5ff;
+  border-left: 5px solid var(--primary-blue);
+  border-radius: 5px;
+}
+
+.info-block {
+  margin-bottom: 1.5rem;
+  position: relative; /* Needed for absolute positioning of the seal */
+}
+
+.info-block h5 {
+  font-family: var(--font-header);
+  font-weight: 700;
+  color: var(--primary-blue);
+  margin-bottom: 0.75rem;
+}
+
+.info-block ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.info-block ul li {
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="%2310B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>') no-repeat left center;
+  padding-left: 30px;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  font-family: var(--font-body);
+}
+
+.info-block p {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.cta-buttons {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.cta-buttons .btn-primary {
+    background-color: var(--primary-blue);
+    border-color: var(--primary-blue);
+    font-family: var(--font-header);
+}
+
+.cta-buttons .btn-secondary {
+    background-color: var(--secondary-purple);
+    border-color: var(--secondary-purple);
+    font-family: var(--font-header);
+}
+
+.result-seal {
+  position: absolute;
+  bottom: 170px; /* Adjusted to be above the buttons */
+  left: 75%;
+  transform: translateX(-50%);
+  width: 120px; /* Increased size for better visibility */
+  height: auto;
+  opacity: 0.9;
+  transition: all 0.3s ease;
+}
+
+.result-seal:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}

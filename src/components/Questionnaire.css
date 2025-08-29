@@ -1,0 +1,100 @@
+
+.questionnaire-container {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.question-card {
+  max-width: 700px;
+  width: 100%;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  padding: 2.5rem;
+}
+
+.progress-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  color: #6c757d;
+}
+
+.progress-header .fw-bold {
+    color: #0249B3;
+}
+
+.progress-bar {
+    height: 10px;
+}
+
+.question-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: #212529;
+}
+
+.answer-options .btn-outline-primary {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 0.75rem;
+  padding: 1rem;
+  border-radius: 8px;
+  border-width: 2px;
+  font-weight: 500;
+  font-size: 1.2rem; /* Increased font size */
+  transition: all 0.2s ease-in-out;
+}
+
+.answer-options .btn-check:checked+.btn-outline-primary,
+.answer-options .btn-outline-primary:hover {
+  background-color: var(--secondary-purple);
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(107, 70, 193, 0.2);
+}
+
+.answer-options .btn-check:checked+.btn-outline-primary {
+  animation: pulse 0.5s ease-in-out;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.navigation-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2.5rem;
+}
+
+.nav-button {
+  font-weight: 600;
+  padding: 0.6rem 2rem;
+  border-radius: 8px;
+}
+
+.next-button {
+    background-color: #0249B3;
+    border-color: #0249B3;
+}
+
+.next-button:hover {
+    background-color: #013a91;
+    border-color: #013a91;
+}

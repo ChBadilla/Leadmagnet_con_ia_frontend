@@ -1,0 +1,82 @@
+[
+  {
+    "text": "¿Cuál describe mejor tu nivel actual de conocimiento sobre Inteligencia Artificial?",
+    "options": [
+      { "text": "No conozco prácticamente nada", "value": 1 },
+      { "text": "He oído hablar pero no la uso", "value": 2 },
+      { "text": "Uso herramientas básicas como ChatGPT ocasionalmente", "value": 3 },
+      { "text": "Uso regularmente múltiples herramientas de IA", "value": 4 },
+      { "text": "Implemento y personalizo soluciones de IA avanzadas", "value": 5 }
+    ]
+  },
+  {
+    "text": "¿Qué tan automatizados están sus procesos de trabajo diarios?",
+    "options": [
+        { "text": "Todo lo hago manualmente", "value": 1 },
+        { "text": "Uso algunas plantillas o herramientas básicas", "value": 2 },
+        { "text": "Tengo automatizados algunos procesos repetitivos", "value": 3 },
+        { "text": "La mayoría de mis tareas rutinarias están automatizadas", "value": 4 },
+        { "text": "Trabajo casi completamente con flujos automatizados", "value": 5 }
+    ]
+  },
+  {
+    "text": "¿Cómo calificarías la adopción de tecnología en tu empresa?",
+    "options": [
+        { "text": "Muy tradicional, resistente al cambio", "value": 1 },
+        { "text": "Adoptamos tecnología básica cuando es necesario", "value": 2 },
+        { "text": "Evaluamos nuevas tecnologías regularmente", "value": 3 },
+        { "text": "Somos early adopters de tecnología útil", "value": 4 },
+        { "text": "Lideramos innovación tecnológica en nuestra industria", "value": 5 }
+    ]
+  },
+  {
+    "text": "¿Qué porcentaje de los procesos de tu empresa están automatizados?",
+    "options": [
+        { "text": "0-10% - Todo es manual", "value": 1 },
+        { "text": "11-25% - Algunas herramientas básicas", "value": 2 },
+        { "text": "26-50% - Automatización moderada", "value": 3 },
+        { "text": "51-75% - Bastante automatizado", "value": 4 },
+        { "text": "76-100% - Altamente automatizado", "value": 5 }
+    ]
+  },
+  {
+    "text": "Atención a clientes con IA",
+    "options": [
+        { "text": "Sin IA", "value": 1 },
+        { "text": "Manual de preguntas frecuentes incompleto", "value": 2 },
+        { "text": "Chat atendido por humano", "value": 3 },
+        { "text": "Chat + workflows Automatizados con IA", "value": 4 },
+        { "text": "Omnicanal con IA y entrenamiento propio", "value": 5 }
+    ]
+  },
+  {
+    "text": "Productividad del equipo",
+    "options": [
+        { "text": "Sin métricas", "value": 1 },
+        { "text": "Métricas manuales", "value": 2 },
+        { "text": "Objetivos y Resultados clave a nivel básico", "value": 3 },
+        { "text": "Objetivos y Resultados clave + IA en tareas", "value": 4 },
+        { "text": "KPIs con mejoras auditadas por IA", "value": 5 }
+    ]
+  },
+  {
+    "text": "¿Cuál es la actitud de tu organización hacia invertir en IA y automatización?",
+    "options": [
+        { "text": "No hay interés o presupuesto", "value": 1 },
+        { "text": "Se considera pero no es prioridad", "value": 2 },
+        { "text": "Está en nuestros planes para este año", "value": 3 },
+        { "text": "Ya estamos invirtiendo activamente", "value": 4 },
+        { "text": "Es nuestra principal prioridad estratégica", "value": 5 }
+    ]
+  },
+  {
+    "text": "Si pudieras implementar IA en tu empresa mañana, ¿qué tan preparado estarías?",
+    "options": [
+        { "text": "No sabría por dónde empezar", "value": 1 },
+        { "text": "Tendría que investigar mucho primero", "value": 2 },
+        { "text": "Tengo algunas ideas pero necesito ayuda", "value": 3 },
+        { "text": "Tengo un plan claro de implementación", "value": 4 },
+        { "text": "Estoy listo para ejecutar inmediatamente", "value": 5 }
+    ]
+  }
+]

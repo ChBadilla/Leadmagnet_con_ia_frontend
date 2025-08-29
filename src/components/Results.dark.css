@@ -1,0 +1,50 @@
+.results-container.dark-mode {
+  background-color: #1A202C;
+  color: var(--neutral-light);
+}
+
+.dark-mode .results-card {
+  background-color: #2D3748;
+  border: 1px solid #4A5568;
+}
+
+.dark-mode .results-title {
+  color: var(--neutral-light);
+}
+
+.dark-mode .results-subtitle {
+  color: #A0AEC0;
+}
+
+.dark-mode .user-score-label {
+  background: var(--secondary-purple);
+}
+
+.dark-mode .diagnosis-phrase {
+  background-color: #4A5568;
+  border-left-color: var(--secondary-purple);
+  color: var(--neutral-light);
+}
+
+.dark-mode .info-block h5 {
+  color: var(--secondary-purple);
+}
+
+.dark-mode .info-block ul li {
+  color: #A0AEC0;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="%2310B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>');
+}
+
+.dark-mode .info-block p {
+  color: #A0AEC0;
+}
+
+.dark-mode .cta-buttons .btn-primary {
+    background-color: var(--accent-green);
+    border-color: var(--accent-green);
+}
+
+.dark-mode .cta-buttons .btn-secondary {
+    background-color: var(--secondary-purple);
+    border-color: var(--secondary-purple);
+}
